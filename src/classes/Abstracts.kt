@@ -7,6 +7,11 @@ abstract class Article {
     abstract fun post()
 }
 
+//example of enum declaration, similar with Java
+enum class Direction {
+    NORTH, SOUTH, WEST, EAST
+}
+
 class NewsArticle(): Article() {
 
     constructor(title: String): this() {
