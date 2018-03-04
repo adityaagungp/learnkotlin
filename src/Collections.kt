@@ -45,6 +45,10 @@ fun main(args: Array<String>) {
         println("Budi is not found")
     }
 
+    val list2 = listOf("Dede", "Fajar", "Gina")
+    val newList = list.plus(list2)
+    println(newList)
+
     //HashMap
     val map = HashMap<Int, String>()
     map.put(1, "Budi")

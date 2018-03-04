@@ -27,8 +27,14 @@ fun printNTimes(n: Int) {
     }
 }
 
+//Alternatives of each function above in one line, good at declaring short function
+fun isEven2(int: Int): Boolean = int % 2 == 0
+fun sum2(a: Int, b: Int = 0): Int = a + b
+fun sum2(a: Int, b: Int, c: Int): Int = a + b + c
+
 fun main(args: Array<String>) {
     println(isEven(88))
+    println(isEven2(90))
 
     val sum1 = sum(5, 6)
     println(sum1)
